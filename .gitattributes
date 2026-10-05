@@ -1,0 +1,6 @@
+# The frozen acceptance standard is compared byte for byte, so checkouts must be
+# line-ending stable on every platform.
+* text=auto eol=lf
+
+# SQLite database files are data, never text-normalised.
+*.db binary
