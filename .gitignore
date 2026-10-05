@@ -1,0 +1,5 @@
+# Runtime data: the SQLite database is created at runtime, never committed.
+.agent/data/
+node_modules/
+# Local diagnostics may write an artifact bundle here; CI produces its own.
+.agent/artifact/
