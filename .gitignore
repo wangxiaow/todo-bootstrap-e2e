@@ -3,3 +3,7 @@
 node_modules/
 # Local diagnostics may write an artifact bundle here; CI produces its own.
 .agent/artifact/
+# Local gate runs write their observation file here. It is NOT Evidence (only the
+# trusted CI verification job produces that) and CI uploads its own copy as a run
+# artifact, so the local file is never a tracked deliverable.
+.agent/evidence/
